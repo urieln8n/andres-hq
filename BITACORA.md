@@ -2,6 +2,7 @@
 
 Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arriba.
 
+- 2026-11-25 · andres-web · Rediseño con estética IA en toda la web (misma línea que /instagram)
 - 2026-11-25 · Instagram · Reel con la voz de Andrés publicado; revisión automática cada 8 h programada (solo lectura)
 - 2026-11-25 · Instagram · Primer reel publicado desde Claude: el auditor analizando una web de ejemplo (nota 25, "0 palabras")
 - 2026-11-25 · Instagram · Rediseño de andresrendon.com/instagram (estética IA) y primer carrusel publicado desde Claude ("5 señales"), conectado Windsor.ai
