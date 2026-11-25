@@ -70,7 +70,8 @@
       "url": "https://andresrendon.com/auditoria-aeo",
       "publicar": "PC: npm run auditar -- URL · Web: Worker aeo-auditor en Cloudflare (Git: urieln8n/aeo-auditor, D1 aeo-auditor), auditoria.andresrendon.com",
       "donde_esta": "GitHub",
-      "siguiente": "Entrar en GitHub como urieln8n para reactivar el despliegue automático del motor (cambio pendiente: informe completo en el email y redirección de auditoria.andresrendon.com)"
+      "siguiente": "Despliegue automático funcionando (redirección y hallazgos completos publicados). Siguiente: pasar el repo a privado",
+      "actualizado": "2026-11-25"
     },
     {
       "id": "kits-juanpe",
@@ -300,7 +301,8 @@
       "url": "https://barberiaos.com",
       "publicar": "Next.js + Supabase",
       "donde_esta": "GitHub + Supabase (proyecto aún activo)",
-      "siguiente": "Pausar el proyecto de Supabase si no se usa"
+      "siguiente": "URGENTE: desactivar la clave service_role publicada en barberia-saas y poner el repo en privado",
+      "actualizado": "2026-11-25"
     },
     {
       "id": "neuralflow",

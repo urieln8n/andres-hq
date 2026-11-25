@@ -20,3 +20,5 @@ Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arri
 - 2026-11-25 · andres-web · AI Market en la web: ficha de proyecto, Sobre mí y franja «Lo construyo en directo»
 - 2026-11-25 · ai-market · Vuelve a foco. Puente de marca con andresrendon.com y lista de espera real (D1 + Brevo opcional); pendiente de desplegar con wrangler
 - 2026-11-25 · ai-market · Conectado Workers Builds: publicado el puente de marca y la lista de espera
+- 2026-11-25 · ai-market · Lista de espera en la portada
+- 2026-11-25 · andres-hq · Repaso de seguridad y orden (doc «Repaso de seguridad y orden»); auditor con despliegue automático
