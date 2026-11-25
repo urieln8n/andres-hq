@@ -70,7 +70,7 @@
       "url": "https://auditoria.andresrendon.com",
       "publicar": "PC: npm run auditar -- URL · Web: Worker aeo-auditor en Cloudflare (Git: urieln8n/aeo-auditor, D1 aeo-auditor), auditoria.andresrendon.com",
       "donde_esta": "GitHub",
-      "siguiente": "Dar acceso a la app de Cloudflare en GitHub al repo aeo-auditor y añadir los secretos SAL, CLAVE_ADMIN y BREVO_API_KEY"
+      "siguiente": "Andrés: pegar BREVO_API_KEY y CLAVE_ADMIN en Cloudflare; iniciar sesión en GitHub como urieln8n para reactivar el despliegue automático (hay un cambio de Brevo pendiente de publicar)"
     },
     {
       "id": "kits-juanpe",
