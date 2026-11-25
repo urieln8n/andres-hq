@@ -65,12 +65,12 @@
       "nombre": "Auditor AEO (Andrés AI Studio)",
       "estado": "base",
       "tipo": "herramienta de venta",
-      "que_es": "Auditor AEO: herramienta del PC (doble pasada, informe con marca) + web auditoria.andresrendon.com (nota gratis y captación de contactos)",
+      "que_es": "Motor del auditor AEO (8 ejes, 22 crawlers, capa Cloudflare). Cara pública: andresrendon.com/auditoria-aeo (panel Supabase + Brevo + email con informe). Motor/API: auditoria.andresrendon.com. También CLI en el PC con doble pasada.",
       "repo": "urieln8n/aeo-auditor",
-      "url": "https://auditoria.andresrendon.com",
+      "url": "https://andresrendon.com/auditoria-aeo",
       "publicar": "PC: npm run auditar -- URL · Web: Worker aeo-auditor en Cloudflare (Git: urieln8n/aeo-auditor, D1 aeo-auditor), auditoria.andresrendon.com",
       "donde_esta": "GitHub",
-      "siguiente": "Entrar en GitHub como urieln8n para reactivar el despliegue automático y publicar los campos extra de Brevo (NEGOCIO, WEB, NOTA_AEO, PROBLEMA_1..3)"
+      "siguiente": "Entrar en GitHub como urieln8n para reactivar el despliegue automático del motor (cambio pendiente: informe completo en el email y redirección de auditoria.andresrendon.com)"
     },
     {
       "id": "kits-juanpe",
@@ -94,7 +94,7 @@
       "url": "https://andresrendon.com",
       "publicar": "Next.js",
       "donde_esta": "GitHub",
-      "siguiente": "Añadir servicio 'Auditoría IA' y enlazar al auditor AEO"
+      "siguiente": "Instagram (andresrendon.com/instagram) ya lleva la auditoría IA como botón principal; borrar el lead \"Prueba Motor\" de Supabase y Brevo"
     },
     {
       "id": "web-rescue",
@@ -130,7 +130,7 @@
       "url": "https://avancescampus.es",
       "publicar": "Cloudflare Workers (wrangler)",
       "donde_esta": "GitHub ⚠️ dos repos para lo mismo",
-      "siguiente": "Aplicar parche AEO (rama aeo-mejoras) + aviso legal y quiénes somos con datos de Edi; confirmar dominio avances. vs avancescampus.andresrendon.com"
+      "siguiente": "Enseñar a Edi: web antigua avancescampus.es 56/100 vs web nueva 95/100; pedir datos para aviso legal y quiénes somos"
     },
     {
       "id": "stylebuddhas",
