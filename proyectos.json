@@ -41,7 +41,7 @@
       "nombre": "Vice City Radar / canal GTA 6 (VICECLIP STUDIO)",
       "estado": "foco",
       "tipo": "contenido / YouTube",
-      "que_es": "Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje)",
+      "que_es": "Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco)",
       "repo": null,
       "url": "https://www.youtube.com/@VICECLIPSTUDIO",
       "publicar": "Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI)",
@@ -94,7 +94,7 @@
       "url": "https://andresrendon.com",
       "publicar": "Next.js",
       "donde_esta": "GitHub",
-      "siguiente": "Página \"Sobre mí\" nueva publicada (foto, cómo trabajo, caso Avancés 92/100, productos propios). Siguiente: revisarla en el móvil y pedir a Edi permiso para publicar su nota antigua",
+      "siguiente": "AI Market añadido (ficha, Sobre mí, franja «Lo construyo en directo»). Siguiente: enlace del canal de YouTube cuando exista",
       "actualizado": "2026-11-25"
     },
     {
@@ -184,14 +184,15 @@
     {
       "id": "ai-market",
       "nombre": "AI Market",
-      "estado": "aparcado",
+      "estado": "foco",
       "tipo": "producto propio",
       "que_es": "'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc.",
       "repo": "urieln8n/AI-MARKET (privado)",
-      "url": null,
-      "publicar": "Local (Docker + PostgreSQL)",
-      "donde_esta": "GitHub + USB + Docker local; datos hasta 26 oct 2026",
-      "siguiente": "Usar los datos como contenido de IA; retomar recolección cuando acabe el sprint"
+      "url": "https://aimarket.andresrendon.com",
+      "publicar": "Cloudflare Workers (OpenNext + Hyperdrive), hoy con wrangler desde el PC: cd web && npm run cf:deploy",
+      "donde_esta": "GitHub + Supabase (datos) + D1 ai-market-leads (lista de espera); historial sep–oct congelado",
+      "siguiente": "Desplegar desde el PC (git pull; cd web; npm ci; npm run cf:deploy) para publicar el puente de marca y la lista de espera; luego crear la lista de Brevo y poner BREVO_LIST_ID",
+      "actualizado": "2026-11-25"
     },
     {
       "id": "alachan-home",

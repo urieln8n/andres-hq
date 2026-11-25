@@ -16,12 +16,12 @@ dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-s
 @media(max-width:700px){main{flex-direction:column}.col{flex:auto;width:100%}}
 </style></head><body>
 <header><h1>Mapa de proyectos</h1>
-<div class="meta">Actualizado 2026-11-25 · 25 proyectos · 3/3 en foco · Regla: Máximo 3 proyectos en 'foco'. Para meter uno nuevo en foco, otro pasa a 'aparcado'.</div>
-
+<div class="meta">Actualizado 2026-11-25 · 25 proyectos · 4/3 en foco · Regla: Máximo 3 proyectos en 'foco'. Para meter uno nuevo en foco, otro pasa a 'aparcado'.</div>
+<div class="aviso">⚠️ Tienes 4 proyectos en foco. Aparca alguno.</div>
 </header>
 <main>
     <section class="col">
-      <h2>🔥 En foco (esta semana trabajo aquí) <span>3</span></h2>
+      <h2>🔥 En foco (esta semana trabajo aquí) <span>4</span></h2>
       <article class="card" style="--c:#ff5a36">
         <div class="tipo">servicio / ingresos</div>
         <h3><a href="https://claude.ai/artifact/2U8rEBqHajPAqQD9FvtvNK" target="_blank" rel="noopener">Vender auditorías IA + webs (Andrés AI Studio) ↗</a></h3>
@@ -47,13 +47,24 @@ dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-s
       <article class="card" style="--c:#ff5a36">
         <div class="tipo">contenido / YouTube</div>
         <h3><a href="https://www.youtube.com/@VICECLIPSTUDIO" target="_blank" rel="noopener">Vice City Radar / canal GTA 6 (VICECLIP STUDIO) ↗</a></h3>
-        <p>Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje)</p>
+        <p>Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco)</p>
         <dl>
           
           <dt>Dónde</dt><dd>Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub</dd>
           <dt>Publicar</dt><dd>Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI)</dd>
         </dl>
         <div class="next">→ Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana</div>
+      </article>
+      <article class="card" style="--c:#ff5a36">
+        <div class="tipo">producto propio</div>
+        <h3><a href="https://aimarket.andresrendon.com" target="_blank" rel="noopener">AI Market ↗</a></h3>
+        <p>'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc.</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/AI-MARKET (privado)</dd>
+          <dt>Dónde</dt><dd>GitHub + Supabase (datos) + D1 ai-market-leads (lista de espera); historial sep–oct congelado</dd>
+          <dt>Publicar</dt><dd>Cloudflare Workers (OpenNext + Hyperdrive), hoy con wrangler desde el PC: cd web &amp;&amp; npm run cf:deploy</dd>
+        </dl>
+        <div class="next">→ Desplegar desde el PC (git pull; cd web; npm ci; npm run cf:deploy) para publicar el puente de marca y la lista de espera; luego crear la lista de Brevo y poner BREVO_LIST_ID</div>
       </article>
     </section>
     <section class="col">
@@ -136,7 +147,7 @@ dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-s
           <dt>Dónde</dt><dd>GitHub</dd>
           <dt>Publicar</dt><dd>Next.js</dd>
         </dl>
-        <div class="next">→ Página &quot;Sobre mí&quot; nueva publicada (foto, cómo trabajo, caso Avancés 92/100, productos propios). Siguiente: revisarla en el móvil y pedir a Edi permiso para publicar su nota antigua</div>
+        <div class="next">→ AI Market añadido (ficha, Sobre mí, franja «Lo construyo en directo»). Siguiente: enlace del canal de YouTube cuando exista</div>
       </article>
       <article class="card" style="--c:#8b7bff">
         <div class="tipo">herramienta + web comercial</div>
@@ -162,7 +173,7 @@ dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-s
       </article>
     </section>
     <section class="col">
-      <h2>🧊 Aparcado (vale la pena, pero no ahora) <span>11</span></h2>
+      <h2>🧊 Aparcado (vale la pena, pero no ahora) <span>10</span></h2>
       <article class="card" style="--c:#7a8794">
         <div class="tipo">contenido / YouTube</div>
         <h3><a href="https://www.youtube.com/@vintageflow-n1w" target="_blank" rel="noopener">Vintage Flow ↗</a></h3>
@@ -184,17 +195,6 @@ dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-s
           <dt>Publicar</dt><dd>Manual: git pull + npx wrangler deploy --env fe</dd>
         </dl>
         <div class="next">→ Publicar commit 6fff165 pendiente; 1 mejora por semana (mantenimiento)</div>
-      </article>
-      <article class="card" style="--c:#7a8794">
-        <div class="tipo">producto propio</div>
-        <h3>AI Market</h3>
-        <p>'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc.</p>
-        <dl>
-          <dt>Repo</dt><dd>urieln8n/AI-MARKET (privado)</dd>
-          <dt>Dónde</dt><dd>GitHub + USB + Docker local; datos hasta 26 oct 2026</dd>
-          <dt>Publicar</dt><dd>Local (Docker + PostgreSQL)</dd>
-        </dl>
-        <div class="next">→ Usar los datos como contenido de IA; retomar recolección cuando acabe el sprint</div>
       </article>
       <article class="card" style="--c:#7a8794">
         <div class="tipo">negocio online</div>
