@@ -1,0 +1,9 @@
+# Ideas aparcadas
+
+Una línea por idea: fecha · idea · de dónde sale. Las ideas no son proyectos: aquí esperan
+hasta que haya tiempo y un primer paso claro.
+
+- 2026-11-17 · Tienda online de camisetas personalizadas · ganar ~1.000 €/mes 100 % online
+- 2026-11-25 · Asistente web con IA (chat widget) para webs de negocios · venderlo como cuota mensual junto al mantenimiento
+- 2026-11-25 · Comunidad/mentorías en Skool sobre "vender webs y auditorías IA a negocios locales" · cuando haya 3–5 casos reales
+- 2026-11-25 · Fase 2 del auditor AEO: medir si Perplexity/ChatGPT citan al cliente · interfaz ya preparada en `aeo-auditor/src/citas/`

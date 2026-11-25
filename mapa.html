@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa de proyectos · Andrés</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0e1013;color:#e9ecef}
+header{padding:28px 20px 8px;max-width:1500px;margin:auto}h1{margin:0 0 6px;font-size:26px}
+.meta{color:#9aa4ad;font-size:14px}.aviso{background:#3a1d14;border:1px solid #ff5a36;padding:10px 14px;border-radius:10px;margin-top:12px}
+main{display:flex;gap:16px;overflow-x:auto;padding:16px 20px 40px;max-width:1500px;margin:auto;align-items:flex-start}
+.col{flex:0 0 300px}.col h2{font-size:15px;margin:0 0 10px;color:#cfd5da}.col h2 span{color:#7a8794;font-weight:400}
+.card{background:#171a1f;border:1px solid #23272e;border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.tipo{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--c)}
+h3{margin:4px 0 6px;font-size:16px}h3 a{color:#fff;text-decoration:none}h3 a:hover{text-decoration:underline}
+p{margin:0 0 8px;font-size:13px;color:#b9c1c8;line-height:1.4}
+dl{margin:0 0 8px;display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-size:12px}dt{color:#7a8794}dd{margin:0;color:#cfd5da;word-break:break-word}
+.next{font-size:13px;background:#1f242b;border-radius:6px;padding:6px 8px;color:#fff}
+@media(max-width:700px){main{flex-direction:column}.col{flex:auto;width:100%}}
+</style></head><body>
+<header><h1>Mapa de proyectos</h1>
+<div class="meta">Actualizado 2026-11-25 · 24 proyectos · 3/3 en foco · Regla: Máximo 3 proyectos en 'foco'. Para meter uno nuevo en foco, otro pasa a 'aparcado'.</div>
+
+</header>
+<main>
+    <section class="col">
+      <h2>🔥 En foco (esta semana trabajo aquí) <span>3</span></h2>
+      <article class="card" style="--c:#ff5a36">
+        <div class="tipo">embudo / ingresos</div>
+        <h3><a href="https://kit.andresrendon.com" target="_blank" rel="noopener">kit.andresrendon.com ↗</a></h3>
+        <p>Web del kit de ganchos gratis + oferta de web 3D + auditoría de canal 19,90 €</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/kit-andresrendon</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Automático: cada push a main se publica (Cloudflare Pages)</dd>
+        </dl>
+        <div class="next">→ Enlace de pago Stripe para la auditoría de 19,90 € (meta: 10 vendidas)</div>
+      </article>
+      <article class="card" style="--c:#ff5a36">
+        <div class="tipo">contenido / YouTube</div>
+        <h3><a href="https://www.youtube.com/@VICECLIPSTUDIO" target="_blank" rel="noopener">Vice City Radar / canal GTA 6 (VICECLIP STUDIO) ↗</a></h3>
+        <p>Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje)</p>
+        <dl>
+          
+          <dt>Dónde</dt><dd>Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub</dd>
+          <dt>Publicar</dt><dd>Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI)</dd>
+        </dl>
+        <div class="next">→ Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana</div>
+      </article>
+      <article class="card" style="--c:#ff5a36">
+        <div class="tipo">contenido / YouTube</div>
+        <h3><a href="https://www.youtube.com/@vintageflow-n1w" target="_blank" rel="noopener">Vintage Flow ↗</a></h3>
+        <p>Canal de soul de los 50; meta 4.000 horas para monetizar</p>
+        <dl>
+          
+          <dt>Dónde</dt><dd>YouTube + carpeta de música en el PC</dd>
+          <dt>Publicar</dt><dd>YouTube Studio</dd>
+        </dl>
+        <div class="next">→ 2 recopilaciones de 1 h por semana con música original (ACE-Step)</div>
+      </article>
+    </section>
+    <section class="col">
+      <h2>💼 Clientes y demos <span>4</span></h2>
+      <article class="card" style="--c:#3aa8ff">
+        <div class="tipo">cliente</div>
+        <h3><a href="https://avancescampus.es" target="_blank" rel="noopener">Avancés Campus (Edi) ↗</a></h3>
+        <p>Web 3D + presupuesto online + tablero del taller para avancés de caravana</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/avancescampusedi (actual) · urieln8n/avancescampus (versión anterior)</dd>
+          <dt>Dónde</dt><dd>GitHub ⚠️ dos repos para lo mismo</dd>
+          <dt>Publicar</dt><dd>Cloudflare Workers (wrangler)</dd>
+        </dl>
+        <div class="next">→ Confirmar cuál es el bueno y archivar el otro; auditoría AEO</div>
+      </article>
+      <article class="card" style="--c:#3aa8ff">
+        <div class="tipo">demo para vender</div>
+        <h3>StyleBuddhas (barbería, Gràcia)</h3>
+        <p>Web premium 3D con poste de barbero, reserva en Booksy y WhatsApp</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/stylebudas</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Cloudflare Workers (wrangler)</dd>
+        </dl>
+        <div class="next">→ Faltan datos legales, horario y dominio; enseñársela al dueño</div>
+      </article>
+      <article class="card" style="--c:#3aa8ff">
+        <div class="tipo">demo para vender</div>
+        <h3>La Casa de Jenni</h3>
+        <p>Web 3D: pollo payés y tartas por encargo, pedido por WhatsApp</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/casadejenni</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Cloudflare Workers (wrangler)</dd>
+        </dl>
+        <div class="next">→ Enseñar la demo y cerrar</div>
+      </article>
+      <article class="card" style="--c:#3aa8ff">
+        <div class="tipo">demo para vender</div>
+        <h3>JAVA hornos para pizza (Javier)</h3>
+        <p>Web premium 3D del horno JAVA; presupuesto por WhatsApp (demo noindex)</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/javier3d</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Carpeta web-premium/ estática</dd>
+        </dl>
+        <div class="next">→ Enseñar la demo y cerrar</div>
+      </article>
+    </section>
+    <section class="col">
+      <h2>🧱 Mi base (webs y herramientas que uso para vender) <span>5</span></h2>
+      <article class="card" style="--c:#8b7bff">
+        <div class="tipo">herramienta de venta</div>
+        <h3>Auditor AEO (Andrés AI Studio)</h3>
+        <p>Mide si ChatGPT/Perplexity/Claude/Gemini pueden leer y citar una web; informe HTML con tu marca</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/aeo-auditor</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Herramienta local: npm run auditar -- https://web.com --cliente nombre</dd>
+        </dl>
+        <div class="next">→ Auditar Stylebuddhas y Avancés Campus como primeros casos</div>
+      </article>
+      <article class="card" style="--c:#8b7bff">
+        <div class="tipo">herramienta de venta</div>
+        <h3>Kits de Juanpe (Cazador de webs + Auditoría de negocio)</h3>
+        <p>Kit 01 rehace webs en 3D con propuesta; Kit 03 audita negocio por fuera y por dentro</p>
+        <dl>
+          
+          <dt>Dónde</dt><dd>Proyecto de Claude 'kit ganar dinero' (zips) ⚠️ descomprimir en ~/proyectos/kits</dd>
+          <dt>Publicar</dt><dd>Abrir la carpeta en VS Code + Claude Code → /setup</dd>
+        </dl>
+        <div class="next">→ Embudo: Auditoría (K03 + AEO) → demo con Cazador (K01) → mantenimiento</div>
+      </article>
+      <article class="card" style="--c:#8b7bff">
+        <div class="tipo">web personal / portafolio</div>
+        <h3><a href="https://andresrendon.com" target="_blank" rel="noopener">andresrendon.com ↗</a></h3>
+        <p>Web personal premium para vender sistemas con IA; portafolio de proyectos</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/andres-web</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Next.js</dd>
+        </dl>
+        <div class="next">→ Añadir servicio 'Auditoría IA' y enlazar al auditor AEO</div>
+      </article>
+      <article class="card" style="--c:#8b7bff">
+        <div class="tipo">herramienta + web comercial</div>
+        <h3>Web Rescue OS / Web Rescue Security</h3>
+        <p>Auditoría defensiva, recuperación y AEO; dashboard (privado) + web pública</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/web-rescue-os (privado) · urieln8n/webrescure (web)</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Web estática en Cloudflare Pages</dd>
+        </dl>
+        <div class="next">→ Decidir si se fusiona con el auditor AEO (hacen cosas parecidas)</div>
+      </article>
+      <article class="card" style="--c:#8b7bff">
+        <div class="tipo">demo</div>
+        <h3><a href="https://tunel.andresrendon.com" target="_blank" rel="noopener">Túnel 3D (tunel.andresrendon.com) ↗</a></h3>
+        <p>Web de una página con túnel 3D por scroll</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/tunel-andresrendon</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>npx wrangler deploy</dd>
+        </dl>
+        <div class="next">→ Usar como demo de portafolio</div>
+      </article>
+    </section>
+    <section class="col">
+      <h2>🧊 Aparcado (vale la pena, pero no ahora) <span>10</span></h2>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3><a href="https://genesis.andresrendon.com" target="_blank" rel="noopener">Lumbrera (aprender Génesis) + Pulsazo ↗</a></h3>
+        <p>Trivial de Génesis (150 preguntas, 15 lecciones, modo grupo). Mismo repo que Pulsazo (quiz en vivo)</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/chispa</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Manual: git pull + npx wrangler deploy --env fe</dd>
+        </dl>
+        <div class="next">→ Publicar commit 6fff165 pendiente; 1 mejora por semana (mantenimiento)</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>AI Market</h3>
+        <p>'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc.</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/AI-MARKET (privado)</dd>
+          <dt>Dónde</dt><dd>GitHub + USB + Docker local; datos hasta 26 oct 2026</dd>
+          <dt>Publicar</dt><dd>Local (Docker + PostgreSQL)</dd>
+        </dl>
+        <div class="next">→ Usar los datos como contenido de IA; retomar recolección cuando acabe el sprint</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">negocio online</div>
+        <h3><a href="https://tienda.andresrendon.com" target="_blank" rel="noopener">ALACHÁN HOME (tienda Shopify) ↗</a></h3>
+        <p>Dropshipping de hogar premium para España con Dropi PRO</p>
+        <dl>
+          
+          <dt>Dónde</dt><dd>Shopify</dd>
+          <dt>Publicar</dt><dd>Panel de Shopify</dd>
+        </dl>
+        <div class="next">→ Elegir productos definitivos</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>ViceClipStudio Growth (SaaS)</h3>
+        <p>SaaS para creadores: auditorías de canal, ideas, guiones, Auto Shorts</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/viceclipstudio (⚠️ vacío / sin subir)</dd>
+          <dt>Dónde</dt><dd>PC (WSL)</dd>
+          
+        </dl>
+        <div class="next">→ Solo si se venden 10 auditorías de 19,90 € (fase 0)</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">herramienta</div>
+        <h3>Andres Video Studio</h3>
+        <p>Recorte de silencios, muletillas, subtítulos y empaquetado para redes (local)</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/andres-video-studio</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Local</dd>
+        </dl>
+        <div class="next">→ Puede servir dentro de Vice City Radar</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>Finanzas con Paz</h3>
+        <p>App familiar de finanzas con fe; meta SaaS 9,99 €/mes</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/finanzas-familiares</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Vercel + Supabase</dd>
+        </dl>
+        <div class="next">→ —</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>FeedAPet (con Annie)</h3>
+        <p>Comunidad/marketplace 'Compra, ahorra, ayuda'</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/feedApeet</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Next.js + Supabase + Vercel</dd>
+        </dl>
+        <div class="next">→ Hablar con Annie si sigue</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>Andres Project for Pizzerías</h3>
+        <p>Landing + dashboard mock de SaaS para pizzerías</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/andres-project</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Next.js</dd>
+        </dl>
+        <div class="next">→ Se solapa con los kits de webs para negocios locales</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>PresupuestoPro IA</h3>
+        <p>App Next.js de presupuestos con IA</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/presupuestopro-ia</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Next.js</dd>
+        </dl>
+        <div class="next">→ —</div>
+      </article>
+      <article class="card" style="--c:#7a8794">
+        <div class="tipo">producto propio</div>
+        <h3>VIAO</h3>
+        <p>Ecosistema de partners a dos lados (docs muy avanzadas)</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/viao</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          <dt>Publicar</dt><dd>Next.js</dd>
+        </dl>
+        <div class="next">→ —</div>
+      </article>
+    </section>
+    <section class="col">
+      <h2>💀 Cerrado (no se toca; se guarda por si acaso) <span>2</span></h2>
+      <article class="card" style="--c:#4a4f55">
+        <div class="tipo">producto propio</div>
+        <h3><a href="https://barberiaos.com" target="_blank" rel="noopener">BarberíaOS ↗</a></h3>
+        <p>SaaS de agenda para barberías</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/barberia-saas</dd>
+          <dt>Dónde</dt><dd>GitHub + Supabase (proyecto aún activo)</dd>
+          <dt>Publicar</dt><dd>Next.js + Supabase</dd>
+        </dl>
+        <div class="next">→ Pausar el proyecto de Supabase si no se usa</div>
+      </article>
+      <article class="card" style="--c:#4a4f55">
+        <div class="tipo">producto propio</div>
+        <h3>NeuralFlow (3 repos)</h3>
+        <p>Intentos antiguos (mar 2026); dos repos vacíos</p>
+        <dl>
+          <dt>Repo</dt><dd>urieln8n/neuralflowapp · neuralflow · neuralflow-ia</dd>
+          <dt>Dónde</dt><dd>GitHub</dd>
+          
+        </dl>
+        <div class="next">→ Archivar en GitHub (Settings → Archive)</div>
+      </article>
+    </section>
+</main></body></html>
