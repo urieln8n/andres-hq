@@ -189,9 +189,9 @@
       "que_es": "'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc.",
       "repo": "urieln8n/AI-MARKET (privado)",
       "url": "https://aimarket.andresrendon.com",
-      "publicar": "Cloudflare Workers (OpenNext + Hyperdrive), hoy con wrangler desde el PC: cd web && npm run cf:deploy",
+      "publicar": "Cloudflare Workers Builds: se publica solo con cada push a main (raíz web)",
       "donde_esta": "GitHub + Supabase (datos) + D1 ai-market-leads (lista de espera); historial sep–oct congelado",
-      "siguiente": "Desplegar desde el PC (git pull; cd web; npm ci; npm run cf:deploy) para publicar el puente de marca y la lista de espera; luego crear la lista de Brevo y poner BREVO_LIST_ID",
+      "siguiente": "Crear la lista de Brevo y poner BREVO_LIST_ID + secreto BREVO_API_KEY; probar la lista de espera con un email real",
       "actualizado": "2026-11-25"
     },
     {

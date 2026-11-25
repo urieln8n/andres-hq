@@ -19,3 +19,4 @@ Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arri
 - 2026-11-25 · aeo-auditor · Primera versión del auditor AEO con la marca Andrés AI Studio
 - 2026-11-25 · andres-web · AI Market en la web: ficha de proyecto, Sobre mí y franja «Lo construyo en directo»
 - 2026-11-25 · ai-market · Vuelve a foco. Puente de marca con andresrendon.com y lista de espera real (D1 + Brevo opcional); pendiente de desplegar con wrangler
+- 2026-11-25 · ai-market · Conectado Workers Builds: publicado el puente de marca y la lista de espera
