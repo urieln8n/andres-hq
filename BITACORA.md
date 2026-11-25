@@ -2,6 +2,7 @@
 
 Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arriba.
 
+- 2026-11-25 · aeo-auditor · Web publicada en auditoria.andresrendon.com (D1 creada, andresrendon.com saca 82); Brevo lista #6 preparada, falta la API key
 - 2026-11-25 · aeo-auditor · Versión web hecha y probada en local (nota gratis + formulario de contacto); falta publicarla en Cloudflare
 - 2026-11-25 · Avancés Campus · Primera auditoría AEO real: 92 → 95/100 con parche local (fechas, Content Signals, /taller/ fuera); auditor corregido con 3 falsos positivos
 - 2026-11-25 · andres-hq · "Vender auditorías + webs" entra en foco; Vintage Flow pasa a aparcado hasta el primer cliente

@@ -68,9 +68,9 @@
       "que_es": "Auditor AEO: herramienta del PC (doble pasada, informe con marca) + web auditoria.andresrendon.com (nota gratis y captación de contactos)",
       "repo": "urieln8n/aeo-auditor",
       "url": "https://auditoria.andresrendon.com",
-      "publicar": "PC: npm run auditar -- URL · Web: npm run web:deploy (Cloudflare Worker + D1), pasos en el README",
+      "publicar": "PC: npm run auditar -- URL · Web: Worker aeo-auditor en Cloudflare (Git: urieln8n/aeo-auditor, D1 aeo-auditor), auditoria.andresrendon.com",
       "donde_esta": "GitHub",
-      "siguiente": "Publicar la web: wrangler login, crear D1, secretos SAL y CLAVE_ADMIN, deploy y dominio auditoria.andresrendon.com"
+      "siguiente": "Dar acceso a la app de Cloudflare en GitHub al repo aeo-auditor y añadir los secretos SAL, CLAVE_ADMIN y BREVO_API_KEY"
     },
     {
       "id": "kits-juanpe",
