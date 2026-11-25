@@ -1,6 +1,6 @@
 # Mapa de proyectos de Andrés
 
-Actualizado: **2026-11-25** · 24 proyectos · 3/3 en foco
+Actualizado: **2026-11-25** · 25 proyectos · 3/3 en foco
 
 > Este archivo se genera solo desde `proyectos.json`. No lo edites a mano: edita el JSON y ejecuta `node scripts/generar.mjs`.
 
@@ -8,9 +8,9 @@ Actualizado: **2026-11-25** · 24 proyectos · 3/3 en foco
 
 | Proyecto | Qué es | Repo | Dónde está / cómo publicar | Siguiente paso |
 |---|---|---|---|---|
+| **[Vender auditorías IA + webs (Andrés AI Studio)](https://claude.ai/artifact/2U8rEBqHajPAqQD9FvtvNK)** | Auditoría IA gratis → arreglo AEO (desde 290 €) → web nueva (desde 800 €) → mantenimiento 99 €/mes | [urieln8n/aeo-auditor](https://github.com/urieln8n/aeo-auditor) (herramienta) | GitHub + doc del plan<br>Plan de venta en el doc 'Cómo vendo la Auditoría IA (AEO)' | Jueves 26: instalar el auditor y auditar Avancés Campus; meta semana: 4 informes y 1 arreglo vendido |
 | **[kit.andresrendon.com](https://kit.andresrendon.com)** | Web del kit de ganchos gratis + oferta de web 3D + auditoría de canal 19,90 € | [urieln8n/kit-andresrendon](https://github.com/urieln8n/kit-andresrendon) | GitHub<br>Automático: cada push a main se publica (Cloudflare Pages) | Enlace de pago Stripe para la auditoría de 19,90 € (meta: 10 vendidas) |
 | **[Vice City Radar / canal GTA 6 (VICECLIP STUDIO)](https://www.youtube.com/@VICECLIPSTUDIO)** | Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) | — | Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub<br>Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI) | Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana |
-| **[Vintage Flow](https://www.youtube.com/@vintageflow-n1w)** | Canal de soul de los 50; meta 4.000 horas para monetizar | — | YouTube + carpeta de música en el PC<br>YouTube Studio | 2 recopilaciones de 1 h por semana con música original (ACE-Step) |
 
 ## 💼 Clientes y demos
 
@@ -35,6 +35,7 @@ Actualizado: **2026-11-25** · 24 proyectos · 3/3 en foco
 
 | Proyecto | Qué es | Repo | Dónde está / cómo publicar | Siguiente paso |
 |---|---|---|---|---|
+| **[Vintage Flow](https://www.youtube.com/@vintageflow-n1w)** | Canal de soul de los 50; meta 4.000 horas para monetizar | — | YouTube + carpeta de música en el PC<br>YouTube Studio | Vuelve a foco cuando cierre el primer cliente de auditoría/web |
 | **[Lumbrera (aprender Génesis) + Pulsazo](https://genesis.andresrendon.com)** | Trivial de Génesis (150 preguntas, 15 lecciones, modo grupo). Mismo repo que Pulsazo (quiz en vivo) | [urieln8n/chispa](https://github.com/urieln8n/chispa) | GitHub<br>Manual: git pull + npx wrangler deploy --env fe | Publicar commit 6fff165 pendiente; 1 mejora por semana (mantenimiento) |
 | **AI Market** | 'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc. | [urieln8n/AI-MARKET](https://github.com/urieln8n/AI-MARKET) (privado) | GitHub + USB + Docker local; datos hasta 26 oct 2026<br>Local (Docker + PostgreSQL) | Usar los datos como contenido de IA; retomar recolección cuando acabe el sprint |
 | **[ALACHÁN HOME (tienda Shopify)](https://tienda.andresrendon.com)** | Dropshipping de hogar premium para España con Dropi PRO | — | Shopify<br>Panel de Shopify | Elegir productos definitivos |

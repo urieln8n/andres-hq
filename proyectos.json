@@ -13,6 +13,18 @@
   },
   "proyectos": [
     {
+      "id": "vender-auditorias",
+      "nombre": "Vender auditorías IA + webs (Andrés AI Studio)",
+      "estado": "foco",
+      "tipo": "servicio / ingresos",
+      "que_es": "Auditoría IA gratis → arreglo AEO (desde 290 €) → web nueva (desde 800 €) → mantenimiento 99 €/mes",
+      "repo": "urieln8n/aeo-auditor (herramienta)",
+      "url": "https://claude.ai/artifact/2U8rEBqHajPAqQD9FvtvNK",
+      "publicar": "Plan de venta en el doc 'Cómo vendo la Auditoría IA (AEO)'",
+      "donde_esta": "GitHub + doc del plan",
+      "siguiente": "Jueves 26: instalar el auditor y auditar Avancés Campus; meta semana: 4 informes y 1 arreglo vendido"
+    },
+    {
       "id": "kit-andresrendon",
       "nombre": "kit.andresrendon.com",
       "estado": "foco",
@@ -39,14 +51,14 @@
     {
       "id": "vintage-flow",
       "nombre": "Vintage Flow",
-      "estado": "foco",
+      "estado": "aparcado",
       "tipo": "contenido / YouTube",
       "que_es": "Canal de soul de los 50; meta 4.000 horas para monetizar",
       "repo": null,
       "url": "https://www.youtube.com/@vintageflow-n1w",
       "publicar": "YouTube Studio",
       "donde_esta": "YouTube + carpeta de música en el PC",
-      "siguiente": "2 recopilaciones de 1 h por semana con música original (ACE-Step)"
+      "siguiente": "Vuelve a foco cuando cierre el primer cliente de auditoría/web"
     },
     {
       "id": "aeo-auditor",
