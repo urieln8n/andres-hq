@@ -22,3 +22,4 @@ Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arri
 - 2026-11-25 · ai-market · Conectado Workers Builds: publicado el puente de marca y la lista de espera
 - 2026-11-25 · ai-market · Lista de espera en la portada
 - 2026-11-25 · andres-hq · Repaso de seguridad y orden (doc «Repaso de seguridad y orden»); auditor con despliegue automático
+- 2026-11-25 · barberiaos · Anulada la clave service_role filtrada: claves legacy desactivadas y clave de firma HS256 revocada en Supabase

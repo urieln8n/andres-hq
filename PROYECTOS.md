@@ -53,5 +53,5 @@ Actualizado: **2026-11-25** · 25 proyectos · 4/3 en foco
 
 | Proyecto | Qué es | Repo | Dónde está / cómo publicar | Siguiente paso |
 |---|---|---|---|---|
-| **[BarberíaOS](https://barberiaos.com)** | SaaS de agenda para barberías | [urieln8n/barberia-saas](https://github.com/urieln8n/barberia-saas) | GitHub + Supabase (proyecto aún activo)<br>Next.js + Supabase | URGENTE: desactivar la clave service_role publicada en barberia-saas y poner el repo en privado |
+| **[BarberíaOS](https://barberiaos.com)** | SaaS de agenda para barberías | [urieln8n/barberia-saas](https://github.com/urieln8n/barberia-saas) | GitHub + Supabase (proyecto aún activo)<br>Next.js + Supabase | Clave filtrada anulada (legacy keys desactivadas y clave HS256 revocada, 25 nov). Repo privado. Si se retoma: usar las claves nuevas sb_publishable/sb_secret |
 | **NeuralFlow (3 repos)** | Intentos antiguos (mar 2026); dos repos vacíos | [urieln8n/neuralflowapp](https://github.com/urieln8n/neuralflowapp) · neuralflow · neuralflow-ia | GitHub | Archivar en GitHub (Settings → Archive) |

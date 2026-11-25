@@ -301,7 +301,7 @@
       "url": "https://barberiaos.com",
       "publicar": "Next.js + Supabase",
       "donde_esta": "GitHub + Supabase (proyecto aún activo)",
-      "siguiente": "URGENTE: desactivar la clave service_role publicada en barberia-saas y poner el repo en privado",
+      "siguiente": "Clave filtrada anulada (legacy keys desactivadas y clave HS256 revocada, 25 nov). Repo privado. Si se retoma: usar las claves nuevas sb_publishable/sb_secret",
       "actualizado": "2026-11-25"
     },
     {
