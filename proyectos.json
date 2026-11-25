@@ -65,12 +65,12 @@
       "nombre": "Auditor AEO (Andrés AI Studio)",
       "estado": "base",
       "tipo": "herramienta de venta",
-      "que_es": "Mide si ChatGPT/Perplexity/Claude/Gemini pueden leer y citar una web; informe HTML con tu marca",
+      "que_es": "Auditor AEO: herramienta del PC (doble pasada, informe con marca) + web aeo.andresrendon.com (nota gratis y captación de contactos)",
       "repo": "urieln8n/aeo-auditor",
-      "url": null,
-      "publicar": "Herramienta local: npm run auditar -- https://web.com --cliente nombre",
+      "url": "https://aeo.andresrendon.com",
+      "publicar": "PC: npm run auditar -- URL · Web: npm run web:deploy (Cloudflare Worker + D1), pasos en el README",
       "donde_esta": "GitHub",
-      "siguiente": "Jueves 26: instalarlo en el PC y auditar Avancés Campus. Plan de venta: https://claude.ai/artifact/2U8rEBqHajPAqQD9FvtvNK"
+      "siguiente": "Publicar la web: wrangler login, crear D1, secretos SAL y CLAVE_ADMIN, deploy y dominio aeo.andresrendon.com"
     },
     {
       "id": "kits-juanpe",
