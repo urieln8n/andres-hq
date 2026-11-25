@@ -7,3 +7,4 @@ hasta que haya tiempo y un primer paso claro.
 - 2026-11-25 · Asistente web con IA (chat widget) para webs de negocios · venderlo como cuota mensual junto al mantenimiento
 - 2026-11-25 · Comunidad/mentorías en Skool sobre "vender webs y auditorías IA a negocios locales" · cuando haya 3–5 casos reales
 - 2026-11-25 · Fase 2 del auditor AEO: medir si Perplexity/ChatGPT citan al cliente · interfaz ya preparada en `aeo-auditor/src/citas/`
+- 2026-11-25 · Página de presentación para directos y curso de principiantes, con el túnel 3D de tunel.andresrendon.com (directo.andresrendon.com). Plan propuesto; pendiente de que Andrés decida.
