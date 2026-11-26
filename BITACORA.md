@@ -24,3 +24,4 @@ Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arri
 - 2026-11-25 · ai-market · Lista de espera en la portada
 - 2026-11-25 · andres-hq · Repaso de seguridad y orden (doc «Repaso de seguridad y orden»); auditor con despliegue automático
 - 2026-11-25 · barberiaos · Anulada la clave service_role filtrada: claves legacy desactivadas y clave de firma HS256 revocada en Supabase
+- 2026-11-26 · andres-web / directos · Curso en 12 clases (doc temario), Miro actualizado a Clase 1 (11 diapositivas), idea «¿Me ve ChatGPT?» elegida y paso 1 publicado: nota al momento solo con la web en /auditoria-aeo; informe por email opcional (WhatsApp opcional).
