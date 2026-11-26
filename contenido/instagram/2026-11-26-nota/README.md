@@ -1,7 +1,6 @@
 # Carrusel + reel · "¿Qué nota le pondría ChatGPT a tu web?" (Comenta NOTA)
 
-Preparados el 2026-11-25. Pendientes de publicar el jue 26 nov tras el OK de Andrés:
-carrusel 13:30, reel 19:30 (Barcelona).
+Carrusel publicado 2026-11-26 (media id 18107758643346861). Reel pendiente de OK para las 19:30.
 
 - Archivos: andres-web/public/ig/2026-11-26-nota/ → andresrendon.com/ig/2026-11-26-nota/
   - nota-1.jpg … nota-6.jpg (carrusel 1080x1350)
