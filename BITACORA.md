@@ -26,3 +26,4 @@ Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arri
 - 2026-11-25 · barberiaos · Anulada la clave service_role filtrada: claves legacy desactivadas y clave de firma HS256 revocada en Supabase
 - 2026-11-26 · andres-web / directos · Curso en 12 clases (doc temario), Miro actualizado a Clase 1 (11 diapositivas), idea «¿Me ve ChatGPT?» elegida y paso 1 publicado: nota al momento solo con la web en /auditoria-aeo; informe por email opcional (WhatsApp opcional).
 - 2026-11-26 · andres-web · «¿Te ve ChatGPT?» paso 2 publicado: página para compartir /nota-ia/[dominio] con imagen para redes, sello «Legible por IA» (/sello-ia/[dominio], desde 70/100) y botones de compartir. andresrendon.com saca 82/100.
+- 2026-11-26 · andres-web · Nota IA: estadísticas sin cookies (tabla nota_ia_eventos en Supabase andres-web) y página privada /dashboard/nota-ia; canales con ?o= (tarjeta, whatsapp, instagram); QR de la tarjeta con ?o=tarjeta; tarjeta en azul trencadís.
