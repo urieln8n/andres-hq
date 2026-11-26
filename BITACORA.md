@@ -2,6 +2,7 @@
 
 Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arriba.
 
+- 2026-11-26 · vice-city-radar · Repo en GitHub: urieln8n/vicecitydiario (privado, al día); fuera el aviso «sin copia en GitHub»
 - 2026-11-26 · vice-city-radar · Tarjeta renombrada a "Vice City Diario (canal GTA 6)" (antes "Vice City Radar / canal GTA 6 (VICECLIP STUDIO)")
 - 2026-11-26 · vice-city-radar · Enlace del canal cambiado a la URL fija /channel/UCItRxew6OKw7GxSmqUk3JgA (antes, el alias con @)
 - 2026-11-26 · Instagram · Carrusel «Comenta NOTA» publicado (media id 18107758643346861); reel pendiente para las 19:30

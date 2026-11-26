@@ -43,11 +43,11 @@
       "estado": "foco",
       "tipo": "contenido / YouTube",
       "que_es": "Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco)",
-      "repo": null,
+      "repo": "urieln8n/vicecitydiario (privado)",
       "url": "https://www.youtube.com/channel/UCItRxew6OKw7GxSmqUk3JgA",
       "publicar": "Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI)",
-      "donde_esta": "Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub",
-      "siguiente": "Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana"
+      "donde_esta": "GitHub + PC (WSL): ~/vice-city-diario",
+      "siguiente": "5–7 Shorts/semana"
     },
     {
       "id": "vintage-flow",
