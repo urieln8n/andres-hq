@@ -1,6 +1,6 @@
 # Mapa de proyectos de Andrés
 
-Actualizado: **2026-11-25** · 25 proyectos · 4/3 en foco
+Actualizado: **2026-11-26** · 25 proyectos · 4/3 en foco
 
 > ⚠️ Tienes 4 proyectos en foco y el máximo es 3. Aparca alguno.
 
@@ -12,7 +12,7 @@ Actualizado: **2026-11-25** · 25 proyectos · 4/3 en foco
 |---|---|---|---|---|
 | **[Vender auditorías IA + webs (Andrés AI Studio)](https://claude.ai/artifact/2U8rEBqHajPAqQD9FvtvNK)** | Auditoría IA gratis → arreglo AEO (desde 290 €) → web nueva (desde 800 €) → mantenimiento 99 €/mes | [urieln8n/aeo-auditor](https://github.com/urieln8n/aeo-auditor) (herramienta) | GitHub + doc del plan<br>Plan de venta en el doc 'Cómo vendo la Auditoría IA (AEO)' | Imprimir las tarjetas (archivos «Para imprenta», tras confirmar el teléfono) y publicar el estado de WhatsApp con andresrendon.com/nota-ia?o=whatsapp; en 2–3 semanas poner los % reales del panel Nota IA en la calculadora |
 | **[kit.andresrendon.com](https://kit.andresrendon.com)** | Web del kit de ganchos gratis + oferta de web 3D + auditoría de canal 19,90 € | [urieln8n/kit-andresrendon](https://github.com/urieln8n/kit-andresrendon) | GitHub<br>Automático: cada push a main se publica (Cloudflare Pages) | Enlace de pago Stripe para la auditoría de 19,90 € (meta: 10 vendidas) |
-| **[Vice City Radar / canal GTA 6 (VICECLIP STUDIO)](https://www.youtube.com/@VICECLIPSTUDIO)** | Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco) | — | Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub<br>Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI) | Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana |
+| **[Vice City Radar / canal GTA 6 (VICECLIP STUDIO)](https://www.youtube.com/channel/UCItRxew6OKw7GxSmqUk3JgA)** | Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco) | — | Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub<br>Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI) | Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana |
 | **[AI Market](https://aimarket.andresrendon.com)** | 'CoinMarketCap de la IA': registra cambios en GitHub, Hugging Face, etc. | [urieln8n/AI-MARKET](https://github.com/urieln8n/AI-MARKET) (privado) | GitHub + Supabase (datos) + D1 ai-market-leads (lista de espera); historial sep–oct congelado<br>Cloudflare Workers Builds: se publica solo con cada push a main (raíz web) | Crear la lista de Brevo y poner BREVO_LIST_ID + secreto BREVO_API_KEY; probar la lista de espera con un email real |
 
 ## 💼 Clientes y demos

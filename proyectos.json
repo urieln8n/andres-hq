@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25",
+  "actualizado": "2026-11-26",
   "reglas": {
     "max_activos": 3,
     "nota": "Máximo 3 proyectos en 'foco'. Para meter uno nuevo en foco, otro pasa a 'aparcado'."
@@ -44,7 +44,7 @@
       "tipo": "contenido / YouTube",
       "que_es": "Sistema local que genera Shorts de GTA 6 (noticias → guion → voz → montaje) (cuenta junto al kit como un solo foco)",
       "repo": null,
-      "url": "https://www.youtube.com/@VICECLIPSTUDIO",
+      "url": "https://www.youtube.com/channel/UCItRxew6OKw7GxSmqUk3JgA",
       "publicar": "Local en el PC (FastAPI 127.0.0.1:4686 + ComfyUI)",
       "donde_esta": "Solo en el PC: ~/vice-city-diario (WSL) ⚠️ sin copia en GitHub",
       "siguiente": "Subir ~/vice-city-diario a un repo privado; 5–7 Shorts/semana"

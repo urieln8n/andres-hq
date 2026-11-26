@@ -2,6 +2,7 @@
 
 Una línea por sesión: `fecha · proyecto · qué se hizo`. Lo más nuevo, arriba.
 
+- 2026-11-26 · vice-city-radar · Enlace del canal cambiado a la URL fija /channel/UCItRxew6OKw7GxSmqUk3JgA (antes, el alias con @)
 - 2026-11-25 · Instagram · Preparados carrusel y reel «Comenta NOTA» para el jue 26 nov (13:30 y 19:30), pendientes de OK de Andrés
 - 2026-11-25 · andres-web · Rediseño con estética IA en toda la web (misma línea que /instagram)
 - 2026-11-25 · Instagram · Reel con la voz de Andrés publicado; revisión automática cada 8 h programada (solo lectura)
